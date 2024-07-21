@@ -37,9 +37,9 @@
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
   
-    <section id="wrapper" class="login-register login-sidebar" style="background-image:url(<?php echo base_url(); ?>assets/images/background/login-register.jpg);">
+    <section id="wrapper" class="login-register" style="background-image:url(<?php echo base_url(); ?>assets/images/background/login-register.jpg);">
          
-        <div class="login-box card">
+        <div class="login-box card" style="background-color: rgba(255, 255, 255, 0.9); border-radius: 20px; height:450px; padding: 20px; justify-content:center;">
             <div class="card-body loginpage">
 							<?php if(!empty($this->session->flashdata('feedback'))){ ?>
 							<div class="message">
@@ -49,8 +49,8 @@
 							}
 							?>                                          
                 <form class="form-horizontal form-material" method="post" id="loginform" action="login/Login_Auth">
-                    <a href="javascript:void(0)" class="text-center db"><br/><img src="<?php echo base_url(); ?>assets/images/logo-icon.png" alt="Home" /></a>
-                    <div class="form-group m-t-40">
+                    <a href="javascript:void(0)" class="text-center db"><br/><img src="<?php echo base_url(); ?>assets/images/logo-icon.png" style="height: 140px; padding: 10px;" alt="Home" /></a>
+                    <div class="form-group" style="margin-top: 0;">
                         <div class="col-xs-12">
                             <input class="form-control" name="email" value="<?php if(isset($_COOKIE['email'])) { echo $_COOKIE['email']; } ?>" type="text" required placeholder="Username">
                         </div>
@@ -62,12 +62,13 @@
                     </div>
                  <div class="form-check">
                      <input type="checkbox" name="remember" class="form-check-input" id="remember-me">
-                     <label class="form-check-label" for="remember-me">Remember me plz!</label>
+                     <label class="form-check-label" for="remember-me">Remember password</label>
                  </div>                     
                     <div class="form-group text-center m-t-20">
                         <div class="col-xs-12">
-                            <button class="btn btn-info btn-lg btn-login btn-block text-uppercase waves-effect waves-light" type="submit">Log In</button>
+                            <button class="btn btn-info btn-lg btn-login btn-block text-uppercase waves-effect waves-light"  type="submit">Log In</button>
                         </div>
+
                     </div>
                 </form>
             </div>
