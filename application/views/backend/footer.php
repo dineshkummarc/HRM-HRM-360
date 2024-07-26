@@ -1,6 +1,6 @@
             </div>
 
-            <footer class="footer"> © 2017 GenIT Bangladesh </footer>
+            <footer class="footer"> © 2024 HRM-360</footer>
 
         </div>
 
