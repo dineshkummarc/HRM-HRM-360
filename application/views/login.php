@@ -37,7 +37,7 @@
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
   
-    <section id="wrapper" class="login-register" style="background-image:url(<?php echo base_url(); ?>assets/images/background/login-register.jpg);">         
+    <section id="wrapper" class="login-register" style="background-image:url(<?php echo base_url(); ?>assets/images/background/login.jpg);">         
     <div class="login-box card" style="background-color: rgba(255, 255, 255, 0.9); border-radius: 20px; height:450px; padding: 20px; justify-content:center;">
             <div class="card-body loginpage">
 							<?php if(!empty($this->session->flashdata('feedback'))){ ?>
