@@ -32,7 +32,7 @@
                                             <div class="col-md-9">
                                                 <div class="file_prev inb">
                                                 <?php if($settingsvalue->sitelogo){ ?>
-                                                    <img src="<?php echo base_url(); ?>assets/images/<?php echo $settingsvalue->sitelogo; ?>" height="100" width="167">
+                                                    <img src="<?php echo base_url(); ?>assets/images/" height="100" width="167">
                                                     <?php } else { ?>
                                                     <img src="<?php echo base_url(); ?>assets/img/ci-logo.png" height="100" width="167">
                                                 <?php } ?>
