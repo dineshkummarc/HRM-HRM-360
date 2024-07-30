@@ -63,7 +63,7 @@ date_default_timezone_set('Asia/Kolkata');
                         <img src="<?php echo base_url();?>assets/images/logo-icon.png" alt="DRI" class="DRI-logo" style="width:50px;"/>
                         </b>
                         <!-- Logo text --><span>
-                         <img src="<?php echo base_url(); ?>assets/images/logon.png" alt="homepage" class="" height="60px" width="100px" />
+                         <img src="<?php echo base_url(); ?>assets/images/banner.png" alt="homepage" class="" height="60px" width="100px" />
                          <!-- Light Logo text -->    
                          </span> </a>
                 </div>
