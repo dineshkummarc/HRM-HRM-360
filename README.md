@@ -83,5 +83,4 @@ Attendance and Leave Management
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
+[MIT](https://github.com/Jeethanxx01/HRM/blob/main/LICENSE)
