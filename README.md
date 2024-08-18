@@ -26,7 +26,7 @@ HRM 360 is an integrated Human Resource Management System designed to streamline
 Clone the repository:
 
 ```bash
-  git clone https://github.com/yourusername/hrm360.git
+  git clone https://github.com/Jeethanxx01/HRM.git
   cd hrm360
 ```
 Install dependencies:
