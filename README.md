@@ -1,8 +1,6 @@
-
 # HRM 360
 
 HRM 360 is an integrated Human Resource Management System designed to streamline and optimize HR processes within an organization. Built on the latest version of the CodeIgniter framework, HRM 360 offers a comprehensive suite of features to manage recruitment, promotions, performance management, training, payroll, and employee services, enhancing operational efficiency and employee engagement.
-
 
 ## Features
 
